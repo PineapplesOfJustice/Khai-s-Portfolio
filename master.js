@@ -80,10 +80,10 @@ function loadProject(level){
       //var placeHolderText3 = 'hideDescription(0, ' + row + ", " + column + ")";  
       if(column >= 2){
         text += '<div class="col-md-3 description" onclick="hideDescription(0, ' + row + ', ' + column + ')" id="ProjectDescription' + row + '_' + column + '"><p>&emsp;' + project[level][0].description +'</p><br><center><a href="https://pineapplesofjustice.github.io/' + project[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "-") + '/" target="_blank"><button class="linkButton" id="ProjectLinkButton' + row + '_' + column + '">Open</button></a></center></div>'; 
-        text += '<div class="col-md-3 main" ondblclick=' + placeHolderText1 + ' onclick="displayDescription(0, ' + row + ', ' + column + ')" id="ProjectMain' + row + '_' + column + '"><center><img src="Images/Thumbnail/Project/' + level + "/" + project[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "-") + '.png" class="thumbnail"><h2>' + project[level][0].title +'</h2></center></div>';          
+        text += '<div class="col-md-3 main" ondblclick=' + placeHolderText1 + ' onclick="displayDescription(0, ' + row + ', ' + column + ')" id="ProjectMain' + row + '_' + column + '"><center><img src="Images/Thumbnail/Project/' + level + "/" + project[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "-") + '.png" class="thumbnail"/><h2>' + project[level][0].title +'</h2></center></div>';          
       }  
       else{  
-        text += '<div class="col-md-3 main" ondblclick=' + placeHolderText1 + ' onclick="displayDescription(0, ' + row + ', ' + column + ')" id="ProjectMain' + row + '_' + column + '"><center><img src="Images/Thumbnail/Project/' + level + "/" + project[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "-") + '.png" class="thumbnail"><h2>' + project[level][0].title +'</h2></center></div>';  
+        text += '<div class="col-md-3 main" ondblclick=' + placeHolderText1 + ' onclick="displayDescription(0, ' + row + ', ' + column + ')" id="ProjectMain' + row + '_' + column + '"><center><img src="Images/Thumbnail/Project/' + level + "/" + project[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "-") + '.png" class="thumbnail"/><h2>' + project[level][0].title +'</h2></center></div>';  
         text += '<div class="col-md-3 description" onclick="hideDescription(0, ' + row + ', ' + column + ')" id="ProjectDescription' + row + '_' + column + '"><p>&emsp;' + project[level][0].description +'</p><br><center><a href="https://pineapplesofjustice.github.io/' + project[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "-") + '/" target="_blank"><button class="linkButton" id="ProjectLinkButton' + row + '_' + column + '">Open</button></a></center></div>';   
       }
       column += 1;
@@ -122,10 +122,10 @@ function loadCodePen(level){
       //var placeHolderText3 = 'hideDescription(0, ' + row + ", " + column + ")";  
       if(column >= 2){
         text += '<div class="col-md-3 description" onclick="hideDescription(1, ' + row + ', ' + column + ')" id="CodePenDescription' + row + '_' + column + '"><p>&emsp;' + codePen[level][0].description +'</p><br><center><a href="https://pineapplesofjustice.github.io/' + codePen[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "-") + '/" target="_blank"><button class="linkButton" id="CodePenLinkButton' + row + '_' + column + '">Open</button></a></center></div>'; 
-        text += '<div class="col-md-3 main" ondblclick=' + placeHolderText1 + ' onclick="displayDescription(1, ' + row + ', ' + column + ')" id="CodePenMain' + row + '_' + column + '"><center><img src="Images/Thumbnail/CodePen/' + level + "/" + codePen[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "-") + '.png" class="thumbnail"><h2>' + codePen[level][0].title +'</h2></center></div>';          
+        text += '<div class="col-md-3 main" ondblclick=' + placeHolderText1 + ' onclick="displayDescription(1, ' + row + ', ' + column + ')" id="CodePenMain' + row + '_' + column + '"><center><img src="Images/Thumbnail/CodePen/' + level + "/" + codePen[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "-") + '.png" class="thumbnail"/><h2>' + codePen[level][0].title +'</h2></center></div>';          
       }  
       else{  
-        text += '<div class="col-md-3 main" ondblclick=' + placeHolderText1 + ' onclick="displayDescription(1, ' + row + ', ' + column + ')" id="CodePenMain' + row + '_' + column + '"><center><img src="Images/Thumbnail/CodePen/' + level + "/" + codePen[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "-") + '.png" class="thumbnail"><h2>' + codePen[level][0].title +'</h2></center></div>';  
+        text += '<div class="col-md-3 main" ondblclick=' + placeHolderText1 + ' onclick="displayDescription(1, ' + row + ', ' + column + ')" id="CodePenMain' + row + '_' + column + '"><center><img src="Images/Thumbnail/CodePen/' + level + "/" + codePen[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "-") + '.png" class="thumbnail"/><h2>' + codePen[level][0].title +'</h2></center></div>';  
         text += '<div class="col-md-3 description" onclick="hideDescription(1, ' + row + ', ' + column + ')" id="CodePenDescription' + row + '_' + column + '"><p>&emsp;' + codePen[level][0].description +'</p><br><center><a href="https://codepen.io/PineappleMaster2002/pen/' + codePen[level][0].link + '" target="_blank"><button class="linkButton" id="CodePenLinkButton' + row + '_' + column + '">Open</button></a></center></div>';   
       }
       column += 1;
@@ -178,10 +178,11 @@ function displayDescription(type, ro, col){
   if(document.getElementById(type + "Main" + ro + "_3")){
     document.getElementById(type + "Main" + ro + "_3").onclick = function(){ displayDescription(type, ro,  3); }; 
   }  
-  if(document.getElementById(type + "Main" + ro + "_" + (col+1)) && (col+1) < 3){  
-    document.getElementById(type + "Main" + ro + "_" + (col+1)).style.display = "none";
-  }
     
+  if(!document.getElementById(type + "Main" + ro + "_3")){}  
+  else if(document.getElementById(type + "Main" + ro + "_" + (col+1)) && (col+1) < 3){  
+    document.getElementById(type + "Main" + ro + "_" + (col+1)).style.display = "none";
+  } 
   else if((col+1) < 3){}  
   else if(document.getElementById(type + "Main" + ro + "_" + (col-1))){  
     document.getElementById(type + "Main" + ro + "_" + (col-1)).style.display = "none";
@@ -197,7 +198,9 @@ function hideDescription(type, ro, col){
   else if(type == 1){
     type = "CodePen";  
   }  
-  if(document.getElementById(type + "Main" + ro + "_" + (col+1)) && (col+1) < 3){  
+    
+  if(!document.getElementById(type + "Main" + ro + "_3")){}  
+  else if(document.getElementById(type + "Main" + ro + "_" + (col+1)) && (col+1) < 3){  
     document.getElementById(type + "Main" + ro + "_" + (col+1)).style.display = "block";
   }
   else if((col+1) < 3){}  

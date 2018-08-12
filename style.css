@@ -1,0 +1,160 @@
+/*transform: scaleX(-1);*/
+
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+@import url('https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope');
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+
+body{
+  background-image: url("Images/Background/Wood Background.jpg");
+  overflow-x: hidden;
+}
+
+*{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* For headings */
+h1{    
+  font-size: 40px;
+  color: black;
+  font-family: Special Elite;
+  text-decoration: underline;
+  text-shadow: -0.5px 0.5px 1px white;
+  margin-left: 15px;
+}
+
+/* Title Name */
+h2{
+  font-size: 20px;   
+  color: black;
+  font-family: Merienda;
+  text-shadow: -0.5px 0.5px 1px white;  
+}
+
+/* For time */
+h3{
+  font-size: 300%;  
+  color: white;
+  font-family: Special Elite;
+  padding: 10px;
+}
+
+/* Description Text */
+p{
+  font-size: 20px;
+  color: black;  
+  font-family: Annie Use Your Telescope;   
+  display: inline;
+  word-wrap: break-word;  
+}
+
+img{
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;   
+}
+
+div{
+  position: relative;
+}
+
+.thumbnail{    
+  object-fit: cover;
+  height: 150px;
+  width: 100%;    
+  border: 1px solid black;  
+}
+
+.main{
+  /*background-image:url("Images/Background/White Background.jpg");*/
+  cursor: pointer;  
+}
+
+.description{
+  background-image: url("Images/Background/White Background.jpg");  
+  display: none;
+  padding: 10px;  
+  min-height:  150px;  
+}
+
+
+
+/* For Link Button */
+.linkButton{
+  color: #138808;
+  background-color: whitesmoke;  
+  font-family: Special Elite;  
+  font-size: 13px;
+  border: 2px solid green;
+  border-radius: 2px;
+  cursor: pointer;
+  padding-left: 22px;
+  padding-right: 22px;
+  margin-left: 7px;
+}
+
+.linkButton:hover{
+  color: white;
+  background-color: #138808;
+}
+
+
+
+/* For Carousel */
+.carousel-indicators li {
+  display: inline-block;
+  border: none;
+  border-radius: 50%;
+  background-color: #ff661a;
+  box-shadow: inset 1px -1px 1px 2px rgba(0,0,0,0.5);    
+} /* Carousel */
+
+.carousel-indicators .active {
+  background-color: #80ff80;
+}
+
+/* Will be better if sticky property work */
+#carouselId{
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 5px solid black;  
+  width: 450px;  
+  position: relative;  
+  top: 10px;
+  left: -80px;  
+}
+
+#carouselId img{
+  border: 1px solid black;  
+}
+
+
+
+/* For Scroll Button */
+#scrollButton{
+  color: white;
+  font-family: Special Elite;
+  font-size: 10px;  
+  text-align: center;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 2px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px; 
+  padding: 5px;
+  min-width: 15%;
+  cursor: pointer;
+  display: none;  
+}
+
+#scrollButton:hover{
+  color: skyblue;  
+}

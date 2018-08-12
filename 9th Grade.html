@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+  <title>Khai's Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    
+    <div id="navBar" class="row" style="background-image: url('Images/Background/Black Background.jpg');">
+      <div class="col-md-10" style="padding: 30px; padding-left: 40px;">  
+        <div class="pull-left">
+          <ul class="nav nav-pills">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="9th Grade.html">9th Grade</a></li>
+            <li><a href="10th Grade.html">10th Grade</a></li>
+            <li><a href="11th Grade.html">11th Grade</a></li>
+            <li><a href="12th Grade.html">12th Grade</a></li>
+          </ul>
+        </div> 
+      </div>  
+      <div class="col-md-2" id="cart">
+        <h3 id="time">12:11</h3>
+      </div>
+    </div><br>  
+
+  <div id="projectSpace"></div>  
+  <div id="codePenSpace"></div><br><br>
+    
+  <div id="scrollButton" onclick="topFunction()">Scroll to Top</div>   
+    
+  <script src="master.js"></script>  <!-- Should Always Run After HTML File -->
+  <script>
+    endTime = true;  
+    loadProject("9th Grade");
+    loadCodePen("9th Grade");
+    checkForContent(); 
+    endTime = false;  
+    updateTime();  
+  </script>
+</body>

@@ -68,6 +68,10 @@ var project = {
       "title": "Snake",
       "description": "This is a project I worked on during the last week of summer. It is a simple snake game meant to refresh my coding skill.",  
     },
+    { 
+      "title": "Monochrome",
+      "description": "Monochrome is an HTML review project for junior year. It also introduce the usage of flexbox, which provide an alternative to bootstrap.",  
+    },
   ],
   "12th Grade": [
       

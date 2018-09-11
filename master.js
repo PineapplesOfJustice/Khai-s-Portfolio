@@ -72,6 +72,14 @@ var project = {
       "title": "Monochrome",
       "description": "Monochrome is an HTML review project for junior year. It also introduce the usage of flexbox, which provide an alternative to bootstrap.",  
     },
+    { 
+      "title": "The Labyrinth",
+      "description": "The Labyrinth is a maze game made with breadth-width and depth-search AI. It was made based on the idea by Alexander Flores.",  
+    },
+    { 
+      "title": "Mission: Defense",
+      "description": "Mission: Defense is an interactive game using P5.js and a tiny bit of physic and mathematical formulas. Very fun to make.",  
+    },
   ],
   "12th Grade": [
       

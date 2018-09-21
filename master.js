@@ -5,6 +5,10 @@ var project = {
       "description": "This is my first project for APP Academy. We were allowed to make a website about any subject we desire. The only catch was that we must present it to the class later.",  
     },
     { 
+      "title": "Circle Generator",
+      "description": "Circle Generator is a fun little piece of random art made with a lot of circles.",  
+    },
+    { 
       "title": "Sailor at Sea",
       "description": "sailor at Sea an introduction to SVG animation. Because it is HTML only, the animation is quite crude and uninteractive.",  
     },

@@ -2,87 +2,99 @@ var project = {
   "9th Grade": [
     { 
       "title": "The Science of Color: Light",
-      "description": "This is my first project for APP Academy. We were allowed to make a website about any subject we desire. The only catch was that we must present it to the class later.",  
+      "description": "The Science of Color: Light is an experimental website that discusses the properties of light and its byproduct: color.",  
     },
     { 
       "title": "Circle Generator",
-      "description": "Circle Generator is a fun little piece of random art made with a lot of circles.",  
+      "description": "Circle Generator is an artistic masterpiece composed of ellipses that exploits Math.random() to display multiple scenes in a random sequence.",  
     },
     { 
       "title": "Sailor at Sea",
-      "description": "sailor at Sea an introduction to SVG animation. Because it is HTML only, the animation is quite crude and uninteractive.",  
+      "description": "Sailor at Sea simulates an interactive oceanic scene using SVG shapes and event listeners for animation.",  
     },
     { 
       "title": "Tic-Tac-Toe",
-      "description": "Tic-Tac-Toe is the first game I made in APP Academy. Eventhough it was severely inefficent, I was proud that the game could decide the winner by itself.",  
+      "description": "Tic-Tac-Toe is a minimalistic version of the game by the same name. For the best viewing experience, please minimize the web browser.",  
     },
     { 
       "title": "Mouse's Road",
-      "description": "Mouse's road was my final freshman year APP Academy project. Like our first, we get to pick our topic. I decided to make a game becasue filling a webpage with content is bothersome.",  
+      "description": "Mouse's road is a simple stay-on-the-path game with the mouse. There are ten levels of various difficulities.",  
     },
   ],
   "10th Grade": [
     { 
       "title": "Lamplit Night",
-      "description": "This is my first personal project. I originally planned it to be a whack-a-mole game like in Plants Vs. Zombies, but I made changes to the plan and now it is a shooting game.",  
+      "description": "Lamplit Night is a defense game where the player uses a mouse to fire projectiles at enemies.",  
     },
     { 
       "title": "Guessing Game",
-      "description": "Guessing game is a typical number guessing game ranging from 1-100. The base page layout was designed by Ms. Johnson, the sophomore APP Academy teacher.",  
+      "description": "Guessing game is essentially a number guessing game ranging from 1-100.",  
     },
     { 
       "title": "Compliment Generator",
-      "description": "Compliment generator is a compliment generator as the name suggest. Its adjective and dessert selections are randomly chosen from a manually embedded array.",  
+      "description": "Compliment generator is a compliment generator as the name suggests. It is laced with a dessert theme for extra sweetness.",  
     },
     { 
       "title": "AP Flashcards",
-      "description": "AP flashcards is a simple flashcard application with flag property. However, adding flashcards require manually adding the text into the code because this is client-side only.",  
+      "description": "AP Flashcards is a basic flashcard application. Although the user cannot add new flashcards, there are a few pre-established ones.",  
     },
     { 
       "title": "College Plan",
-      "description": "Collge plan is the final project for the first semester of sophomore year. We were suppose to name our favorite colleges, but I had no clue about that at he time, so I randomly picked 3.",  
+      "description": "Collge plan is a website that used bootstrap as the basis of its page layout. It details possible pathways after grade school.",  
     },
     { 
       "title": "Movie Lookup",
-      "description": "Movie Lookup is an introduction to API. We are suppose to aaccess a movie source and display specific informations like author and cover art.",  
+      "description": "Movie Lookup is an introduction to API. It is capable of searching a database for info such as release date and poster art of a movie.",  
     },
     { 
       "title": "Save thee Man",
-      "description": "Save thee man was a voluntary mandatory project for the top 5% of the class. Unfortunately, I got selected. It is a fairly simple hang man game for 2 players.",  
+      "description": "Save thee Man is a multiplayer hang man game. One player will input the word for the others to guess.",  
     },
     { 
       "title": "Earthquakes",
-      "description": "Earthquake is an API practice project. It required a code sign up before accessing the database.",  
+      "description": "Earthquakes introduces a code sign-up to access an API database. It displays three recent eaurthquakes regardless of location.",  
     },
     { 
       "title": "Weather Wardrobe",
-      "description": "Weather wardrobe is an API project. We get the weather of the desired location and suggest clothing articles based on the result. This is for men only and/or tomboys.",  
+      "description": "Weather wardrobe introduced a weather API. It searches the database and suggests a wardrobe statement based on pre-defined data.",  
     },
     { 
       "title": "Cart of the Future",
-      "description": 'Cart of the future is my final project for sophomore year. We are suppose to "plan" our future life and determine its cost. I kind of made it more generalized than specific to my lifestyle.',  
+      "description": 'Cart of the Future re-enacts a multiple choice quiz. It allows the users to "plan" their futures in return for criticizing remarks.',  
     },
     { 
       "title": "Ca-Ro",
-      "description": "Caro is a personal project I did for fun to practice my coding skill. It is based on a Vietnamese game and very similar to Tic-Tac-Toe. The objective is to get 5-in-a-row.",  
+      "description": "Ca-Ro is a five-in-a-row game that is not quite unlike Tic-Tac-Toe. In fact, it is an advance version for competitive players.",  
     },
   ],
   "11th Grade": [
     { 
       "title": "Snake",
-      "description": "This is a project I worked on during the last week of summer. It is a simple snake game meant to refresh my coding skill.",  
+      "description": "Snake is a game in which the player controls a hungry snake with an insatiable appetite. The end goal is survival and nothing more.",  
     },
     { 
       "title": "Monochrome",
-      "description": "Monochrome is an HTML review project for junior year. It also introduce the usage of flexbox, which provide an alternative to bootstrap.",  
+      "description": "Monochrome is an HTML project which introduces the usage of flexbox for the page layout. It stars an infamous rock band member.",  
     },
     { 
       "title": "The Labyrinth",
-      "description": "The Labyrinth is a maze game made with breadth-width and depth-search AI. It was made based on the idea by Alexander Flores.",  
+      "description": "The Labyrinth is a maze game powered by breadth-width and depth-search AI. It was build on an idea by Alexander Flores.",  
     },
     { 
       "title": "Mission: Defense",
-      "description": "Mission: Defense is an interactive game using P5.js and a tiny bit of physic and mathematical formulas. Very fun to make.",  
+      "description": "Mission: Defense is an interactive game made with P5.js and mathematical formulas to simulates real projectile motion.",  
+    },
+    { 
+      "title": "Balloon-ful Night",
+      "description": "Balloon-ful Night is a soothing animation with balloons and P5.js. These rubber beings can be popped, freezed, or blockaded.",  
+    },
+    { 
+      "title": "The Quest of Orpheus",
+      "description": "The Quest of Orpheus is a thematic text adventure about Greek mythology laced with personal interpretations.",  
+    },
+    { 
+      "title": "Frequency Decipher",
+      "description": "Frequency Decipher is a sandbox to experiment with P5.js oscillator. Be warned, this will produces sounds. Do not disrupts others.",  
     },
   ],
   "12th Grade": [
@@ -95,54 +107,54 @@ var codePen = {
     { 
       "title": "SVG Key",
       "link": "XpVOEW?editors=0010",  
-      "description": "Svg key is a codepen I made as a  quick reference to the svg functions that Ms. Squire shared in freshman year.",  
+      "description": "Svg Key is a codepen made to be a quick reference guide for the svg functions that Ms. Squire shared in freshman year.",  
     },
     { 
       "title": "Pineapple Nation",
       "link": "LWPoGW",  
-      "description": "Pineapple nation is a simple stampinator codepen project. The only objective is to stamp the canvas.",  
+      "description": "Pineapple Nation is a simple stampinator codepen. This was done by locating the coordinate of the mouse in respect to the canvas.",  
     },
     { 
       "title": "Flappy Fish",
       "link": "wJJKLW?editors=1000",  
-      "description": "Flappy fish is a very simple and buggy flappy bird variation. Not to mention, it is ridiculously repetitive.",  
+      "description": "Flappy Fish is a buggy flappy bird game variation. It tests a collision method with relative x and y postitioning.",  
     },
     { 
       "title": "Pikadventure",
       "link": "mWzBRb",  
-      "description": "Pikadventure is my ridiculously simple sidescroller game. It mainly highlight the Pokemon franchise by Game Freak as one of my personal favorite.",  
+      "description": "Pikadventure is a Pokemon themed sidescroller game. Here, a point is rewarded for each time the character jumps.",  
     },
     { 
       "title": "Polygon Assist v.2",
       "link": "mqdKZx?editors=0010",  
-      "description": "Polygon Assist v.2 is a simple codepen that allow one to draw shape by connecting dots. The coordinates are actually displayed in the console and not on the actual screen.",  
+      "description": "Polygon Assist v.2 allows the user to draw shapes by connecting coordinates. The resulting lines will be calculated in the console box.",  
     },
   ],
   "10th Grade": [
     { 
       "title": "Mad Libs",
       "link": "ZXGwaL?editors=1100",  
-      "description": "This is a simple mad lib codepen I made. I had fun doing, but who wouldn't? It is meant to be hilarious and entertaining.",  
+      "description": "Mad Libs take the user's inputs and weaves them into a hilarious narration. This is ideal for all ages.",  
     },
     { 
       "title": "Flash Art",
       "link": "veWGOy?editors=0110",  
-      "description": "Flash art an svg animation done mostly with Javascript. It also highlight CW Flash as one of my favorite TV show.",  
+      "description": "Flash Art is an animation done mainly with Javascript. It reflects the main villains shown in the first three seasons of CW Flash.",  
     },
     { 
       "title": "Times Table",
       "link": "EoMrpo?editors=0010",  
-      "description": "Times table is a relatively basic practice for 'for loop' and 'input'. There really isn't that much to say beyond that.",  
+      "description": "Times Table is a basic practice for 'for loop' and 'input'. The user may alter the range and factor to create the ideal times table.",  
     },
     { 
       "title": "Movable ViewBox",
       "link": "mxRBRp?editors=0010",  
-      "description": "Movable viewbox was made based on an idea suggested by my classmate, Liam Dimas. He suspected that the viewBox property can be manipulated by Javascript. He was right.",  
+      "description": "Movable Viewbox was created when Liam Dimas suspected that the viewBox property can be manipulated with Javascript.",  
     },
     { 
       "title": "Revealing Ring",
       "link": "PRmboW?editors=0110",  
-      "description": "Revealing ring is a codepen that demonstrate using the 'clip' property with javscript. As a bonus, I also incorporated viewBox manipulatuion into the codepen.",  
+      "description": "Revealing Ring is a codepen that merge the 'clip' property with viewBox manipulation. The result is a revealing ring.",  
     },
   ],
   "11th Grade": [
@@ -249,7 +261,7 @@ function checkForContent(){
 }
 
 function displayDescription(type, ro, col){
-  console.log(type + ", " + ro + ", " + col)  
+  //console.log(type + ", " + ro + ", " + col)  
   if(type == 0){
     type = "Project";  
   }  
@@ -341,7 +353,9 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+/*
 //Made the Carousel "stick" to top of the home page.
+//As it turn out, the sticky property have to be applied to the column div and not the carousel div
 function fixCarousel(){
   if(document.body.scrollTop > 70 || document.documentElement.scrollTop > 70){
     document.getElementById("carouselId").setAttribute("style", "position: fixed; top: 78px; left: 110px;");  
@@ -350,3 +364,4 @@ function fixCarousel(){
     document.getElementById("carouselId").setAttribute("style", "position: relative; top: 10px; left: -80px;");  
   }  
 }
+*/

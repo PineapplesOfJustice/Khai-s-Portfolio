@@ -1,9 +1,6 @@
 /*transform: scaleX(-1);*/
 
-@import url('https://fonts.googleapis.com/css?family=Merienda');
-@import url('https://fonts.googleapis.com/css?family=Special+Elite');
-@import url('https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope');
-@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+@import url('https://fonts.googleapis.com/css?family=Merienda|Special+Elite|Annie+Use+Your+Telescope|Rock+Salt');
 
 body{
   background-image: url("Images/Background/Wood Background.jpg");
@@ -46,7 +43,7 @@ h3{
 
 /* Description Text */
 p{
-  font-size: 25px;
+  font-size: calc(14px + 0.5vw);
   color: black;  
   font-family: Annie Use Your Telescope;   
   display: inline;
@@ -76,9 +73,11 @@ div{
 .main{
   /*background-image:url("Images/Background/White Background.jpg");*/
   cursor: pointer;  
+  margin-bottom: 5vh;
 }
 
 .description{
+  margin-bottom: 10px;
   background-image: url("Images/Background/White Background.jpg");  
   display: none;
   padding: 10px;  
@@ -98,7 +97,7 @@ div{
   cursor: pointer;
   padding-left: 22px;
   padding-right: 22px;
-  margin-left: 7px;
+  margin-top: 7px;
 }
 
 .linkButton:hover{
@@ -135,6 +134,11 @@ div{
   border: 1px solid black;  
 }
 
+.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;    
+}
 
 
 /* For Scroll Button */

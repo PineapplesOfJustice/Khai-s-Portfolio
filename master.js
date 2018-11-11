@@ -82,7 +82,7 @@ var project = {
     },
     { 
       "title": "Mission: Defense",
-      "description": "Mission: Defense is an interactive game made with P5.js and mathematical formulas to simulates real projectile motion.",  
+      "description": "Mission: Defense is an interactive game made to simulate real projectile motion. Pokemon is a trademark of Nintendo.",  
     },
     { 
       "title": "Balloon-ful Night",

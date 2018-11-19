@@ -5,7 +5,7 @@
 body{
   background-image: url("Images/Background/Wood Background.jpg");
   overflow-x: hidden;
-  padding-bottom: 20vh;
+  padding-bottom: 10vh;
 }
 
 /*
@@ -143,7 +143,7 @@ div{
   height: 300px;
 }
 
-#exhibitionId{    
+#exhibitionId{      
   padding: 30px;
 }
 

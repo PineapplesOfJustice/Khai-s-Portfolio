@@ -5,8 +5,10 @@
 body{
   background-image: url("Images/Background/Wood Background.jpg");
   overflow-x: hidden;
+  padding-bottom: 20vh;
 }
 
+/*
 *{
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -14,6 +16,7 @@ body{
   -ms-user-select: none;
   user-select: none;
 }
+*/
 
 /* For headings */
 h1{    
@@ -68,6 +71,14 @@ div{
   height: 150px;
   width: 100%;    
   border: 1px solid black;  
+}
+
+.exhibitionThumbnail{
+  display: block;
+  object-fit: cover;
+  height: 350px;
+  width: 100%;    
+  border: 3px solid black;  
 }
 
 .main{
@@ -126,12 +137,19 @@ div{
   border: 5px solid black;  
   width: 450px;  
   position: relative;  
-  top: 10px;
-  left: -80px;  
 }
 
-#carouselId img{
-  border: 1px solid black;  
+#carouselId img{    
+  height: 300px;
+}
+
+#exhibitionId{    
+  padding: 30px;
+}
+
+.carousel img, .carousel div, .carousel p, .carousel h1{
+  margin: auto;
+  text-align: center;
 }
 
 .sticky{

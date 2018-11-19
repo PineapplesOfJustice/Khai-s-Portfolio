@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <head>
   <title>Khai's Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7/css/bootstrap.css" />
   <link rel="stylesheet" type="text/css" href="style.css" />
   <script src="jquery-3.3.1-jquery.min.js"></script>
-  <script src="bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
   <link rel="shortcut icon" href="Images/Interest/Sun.jpg" type="image/x-icon">
 </head>
 <body>
@@ -27,7 +27,8 @@
     </div><br>  
 
   <div id="projectSpace"></div>  
-  <div id="codePenSpace"></div><br><br>
+  <div id="codePenSpace"></div>  
+  <div id="p5SketchSpace"></div><br><br>
     
   <div id="scrollButton" onclick="topFunction()">Scroll to Top</div>   
     
@@ -36,6 +37,7 @@
     endTime = true;  
     loadProject("9th Grade");
     loadCodePen("9th Grade");
+    loadP5Sketch("9th Grade");
     checkForContent(); 
     endTime = false;  
     updateTime();  

@@ -165,6 +165,66 @@ var codePen = {
   ], 
 }
 
+var p5Sketch = { 
+  "9th Grade": [
+
+  ],
+  "10th Grade": [
+      
+  ],
+  "11th Grade": [
+    { 
+      "title": "Seismograph",
+      "link": "By8eYIAi7",  
+      "description": "Seismograph is a sketch that incorporate mic functionality to imitate a seismograph.",  
+    },
+    { 
+      "title": "Beethoven Excerpt",
+      "link": "HkYuKsJ3Q",  
+      "description": "Beethoven Symphony Excerpt is a sketch that load and play a short musical piece.",  
+    },
+    { 
+      "title": "Bungee Egg",
+      "link": "BJTj2FD3Q",  
+      "description": "Bungee Egg: Halloween Edition is an animation that uses p5 sound for a character to mimic singing.",  
+    },
+    { 
+      "title": "Speech Color",
+      "link": "BkAC2NU3Q",  
+      "description": "Speech Color is a sketch with speech recognition to detect color words.",  
+    },
+    { 
+      "title": "Stoplight",
+      "link": "rJxR2HpY27",  
+      "description": "Stoplight is a continuous animation powered by frameCount and a constuctor.",  
+    },
+    { 
+      "title": "Thermometer",
+      "link": "rJR7_V92Q",  
+      "description": "Thermometer is a physical representation of a temperature input. This is made easier with the map method.",  
+    },
+    { 
+      "title": "Camera Lenses",
+      "link": "BkGKgYXaQ",  
+      "description": "Camera Lenses overlays a webcam feed with tints and filters.",  
+    },
+    { 
+      "title": "Camera Doodle",
+      "link": "H1Lv1aua7",  
+      "description": "Camera Doodle allows one draw on a webcam feed for comical effects.",  
+    },
+    { 
+      "title": "Camera Learning",
+      "link": "Bk35DMqpm",  
+      "description": "Camera Learning uses machine learning from an existing library to add stickers based on facial positions.",  
+    },
+      
+  ],
+  "12th Grade": [
+      
+  ], 
+}
+
 var row = 0;
 var column = 0;
 var r;
@@ -254,20 +314,66 @@ function loadCodePen(level){
   }
 }
 
+function loadP5Sketch(level){
+  var text = "";  
+  if(p5Sketch[level].length != 0){  
+    row = 0;
+    column = 0;
+    if(p5Sketch[level].length > 1){
+      text += '<h1>P5 Sketches:</h1><br><div class="container">';  
+    }  
+    else{  
+      text += '<h1>P5 Sketch:</h1><br><div class="container">';  
+    }
+    while(p5Sketch[level].length != 0){
+      if(column == 0){
+        text += '<div class="row">';  
+      } 
+      var placeHolderText1 = "document.getElementById('P5SketchLinkButton" + row + '_' + column + "').click()";  
+      //var placeHolderText2 = 'displayDescription(0, ' + row + ", " + column + ")";  
+      //var placeHolderText3 = 'hideDescription(0, ' + row + ", " + column + ")";  
+      if(column >= 2){
+        text += '<div class="col-md-3 description" onclick="hideDescription(2, ' + row + ', ' + column + ')" id="P5SketchDescription' + row + '_' + column + '"><p>&emsp;' + p5Sketch[level][0].description +'</p><br><center><a href="https://editor.p5js.org/PineappleMaster/sketches/' + p5Sketch[level][0].link + '" target="_blank"><button class="linkButton" id="P5SketchLinkButton' + row + '_' + column + '">Open</button></a></center></div>'; 
+        text += '<div class="col-md-3 main" ondblclick=' + placeHolderText1 + ' onclick="displayDescription(2, ' + row + ', ' + column + ')" id="P5SketchMain' + row + '_' + column + '"><center><img src="Images/Thumbnail/P5Sketch/' + level + "/" + p5Sketch[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "") + '.PNG" alt="' + p5Sketch[level][0].title + '" class="thumbnail"/><h2>' + p5Sketch[level][0].title +'</h2></center></div>';          
+      }  
+      else{  
+        text += '<div class="col-md-3 main" ondblclick=' + placeHolderText1 + ' onclick="displayDescription(2, ' + row + ', ' + column + ')" id="P5SketchMain' + row + '_' + column + '"><center><img src="Images/Thumbnail/P5Sketch/' + level + "/" + p5Sketch[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "") + '.PNG" alt="' + p5Sketch[level][0].title + '" class="thumbnail"/><h2>' + p5Sketch[level][0].title +'</h2></center></div>';  
+        text += '<div class="col-md-3 description" onclick="hideDescription(2, ' + row + ', ' + column + ')" id="P5SketchDescription' + row + '_' + column + '"><p>&emsp;' + p5Sketch[level][0].description +'</p><br><center><a href="https://editor.p5js.org/PineappleMaster/sketches/' + p5Sketch[level][0].link + '" target="_blank"><button class="linkButton" id="P5SketchLinkButton' + row + '_' + column + '">Open</button></a></center></div>';   
+      }
+      column += 1;
+      p5Sketch[level].shift();
+      if(column == 4){
+        text += '</div>';  
+        row += 1;  
+        column = 0;  
+      }  
+    }
+    if(column != 0){
+      text += '</div>';    
+    } 
+    text += '</div>';
+    document.getElementById("p5SketchSpace").innerHTML = text; 
+  }
+}
+
 function checkForContent(){
-  if(document.getElementById("projectSpace").innerHTML == "" && document.getElementById("codePenSpace").innerHTML == ""){
+  if(document.getElementById("projectSpace").innerHTML == "" && document.getElementById("codePenSpace").innerHTML == "" && document.getElementById("p5SketchSpace").innerHTML == ""){
     document.getElementById("projectSpace").innerHTML = "<center><br><br><h1 style='font-size: 60px; text-decoration: none;'>404</h1><br><h1 style='text-decoration: none;'>Error: Content not Found</h1></center>"  
   }  
 }
 
 function displayDescription(type, ro, col){
-  //console.log(type + ", " + ro + ", " + col)  
+  //console.log(type + ", " + ro + ", " + col)
+  // Strange problem: setting the type parameter to "Project" in the call function set it to " project" instead. Very Strange.
   if(type == 0){
-    type = "Project";  
-  }  
+    type = "Project";
+  }
   else if(type == 1){
     type = "CodePen";  
-  }  
+  }
+  else if(type == 2){
+    type = "P5Sketch";
+  }
   for(var c=0; c<4; c++){
     if(document.getElementById(type + "Main" + ro + "_" + c)){
       document.getElementById(type + "Main" + ro + "_" + c).style.display = "block";
@@ -303,12 +409,14 @@ function displayDescription(type, ro, col){
 
 function hideDescription(type, ro, col){
   if(type == 0){
-    type = "Project";  
-  }  
+    type = "Project";
+  }
   else if(type == 1){
     type = "CodePen";  
-  }  
-    
+  }
+  else if(type == 2){
+    type = "P5Sketch";
+  }
   if(!document.getElementById(type + "Main" + ro + "_3")){}  
   else if(document.getElementById(type + "Main" + ro + "_" + (col+1)) && (col+1) < 3){  
     document.getElementById(type + "Main" + ro + "_" + (col+1)).style.display = "block";

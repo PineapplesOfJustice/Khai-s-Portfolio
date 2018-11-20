@@ -230,6 +230,9 @@ var column = 0;
 var r;
 var c;
 
+
+// Add Grade Projects
+
 function loadProject(level){
   var text = "";  
   if(project[level].length != 0){  
@@ -362,6 +365,9 @@ function checkForContent(){
   }  
 }
 
+
+// Show/Hide Project Description
+
 function displayDescription(type, ro, col){
   //console.log(type + ", " + ro + ", " + col)
   // Strange problem: setting the type parameter to "Project" in the call function set it to " project" instead. Very Strange.
@@ -428,6 +434,9 @@ function hideDescription(type, ro, col){
   document.getElementById(type + "Description" + ro + "_" + col).style.display = "none";    
   document.getElementById(type + "Main" + ro + "_" + col).onclick = function(){ displayDescription(type, ro,  col); };
 }   
+
+
+// Update the Webpage Clock
 
 var endTime = false;
 function updateTime(){

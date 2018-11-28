@@ -218,7 +218,11 @@ var p5Sketch = {
       "link": "Bk35DMqpm",  
       "description": "Camera Learning uses machine learning from an existing library to add stickers based on facial positions.",  
     },
-      
+    { 
+      "title": "Snowy Day",
+      "link": "Bka5K15RX",  
+      "description": "Snowy Day uses constructors and kinematic to simulate an interactive winter scenery.",  
+    },
   ],
   "12th Grade": [
       

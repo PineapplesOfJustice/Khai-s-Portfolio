@@ -96,6 +96,10 @@ var project = {
       "title": "Frequency Decipher",
       "description": "Frequency Decipher is a sandbox to experiment with P5.js oscillator. Be warned, this will produces sounds. Do not disrupts others.",  
     },
+    { 
+      "title": "2Bit Soccer",
+      "description": "2Bit Soccer is a minimalist version of Head Soccer. Although, the game pride itself on the principle of momentum, it is mainly composed of pseudo-physics.",  
+    },
   ],
   "12th Grade": [
       
@@ -222,6 +226,11 @@ var p5Sketch = {
       "title": "Snowy Day",
       "link": "Bka5K15RX",  
       "description": "Snowy Day uses constructors and kinematic to simulate an interactive winter scenery.",  
+    },
+    { 
+      "title": "Snowman Customization",
+      "link": "BJJvHmmkN",  
+      "description": "Snowman Customization uses basic checkboxes to give a snowman some apparels for the Holiday.",  
     },
   ],
   "12th Grade": [

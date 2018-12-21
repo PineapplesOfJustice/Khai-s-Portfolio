@@ -232,6 +232,11 @@ var p5Sketch = {
       "link": "BJJvHmmkN",  
       "description": "Snowman Customization uses basic checkboxes to give a snowman some apparels for the Holiday.",  
     },
+    { 
+      "title": "Rolling Square",
+      "link": "HJ8Z5WDxN",  
+      "description": "Rolling Square apply trignometry to rotation for a smooth animation.",  
+    },
   ],
   "12th Grade": [
       

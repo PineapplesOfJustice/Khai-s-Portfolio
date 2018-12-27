@@ -235,7 +235,12 @@ var p5Sketch = {
     { 
       "title": "Rolling Square",
       "link": "HJ8Z5WDxN",  
-      "description": "Rolling Square apply trignometry to rotation for a smooth animation.",  
+      "description": "Rolling Square applies trignometry to rotation for a smooth animation.",  
+    },
+    { 
+      "title": "Tank Control",
+      "link": "H12pSgoeN",  
+      "description": "Tank Control applies the old tank system to a controlled sketch.",  
     },
   ],
   "12th Grade": [

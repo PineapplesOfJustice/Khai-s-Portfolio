@@ -242,6 +242,11 @@ var p5Sketch = {
       "link": "H12pSgoeN",  
       "description": "Tank Control applies the old tank system to a controlled sketch.",  
     },
+    { 
+      "title": "Perlin Water",
+      "link": "SJawOyXW4",  
+      "description": "Perlin Water generates realistic looking water curves using perlin noise.",  
+    },
   ],
   "12th Grade": [
       

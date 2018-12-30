@@ -247,6 +247,11 @@ var p5Sketch = {
       "link": "SJawOyXW4",  
       "description": "Perlin Water generates realistic looking water curves using perlin noise.",  
     },
+    { 
+      "title": "Text Particle",
+      "link": "S13yUKNbE",  
+      "description": "Text Particle uses P5's textToPoint feature to generate moveable points. Original idea from Shiffman of the Coding Train.",  
+    },
   ],
   "12th Grade": [
       

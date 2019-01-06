@@ -100,6 +100,10 @@ var project = {
       "title": "2Bit Soccer",
       "description": "2Bit Soccer is a minimalist version of Head Soccer. Although, the game pride itself on the principle of momentum, it is mainly composed of pseudo-physics.",  
     },
+    { 
+      "title": "Rope Snake",
+      "description": "Rope Snake unifies inverse kinematic with snake to create an animal raising game. It is based on the game Insaniquarium by American studio Flying Bear Entertainment.",  
+    },
   ],
   "12th Grade": [
       

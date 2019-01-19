@@ -266,6 +266,11 @@ var p5Sketch = {
       "link": "r1VIwEBGN",  
       "description": "Weather Chariot get accurate weather data from Apixu API to display in a short animation scene.",  
     },
+    { 
+      "title": "Solar System",
+      "link": "gGXrbLwDj",  
+      "description": "Solar System is a minimalist, not-to-scale model of the solar system with Pluto included.",  
+    },
   ],
   "12th Grade": [
       

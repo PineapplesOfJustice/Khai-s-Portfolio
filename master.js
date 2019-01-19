@@ -18,7 +18,7 @@ var project = {
     },
     { 
       "title": "Mouse's Road",
-      "description": "Mouse's road is a simple stay-on-the-path game with the mouse. There are ten levels of various difficulities.",  
+      "description": "Mouse's Road is a simple stay-on-the-path game with the mouse. There are ten levels of various difficulities.",  
     },
   ],
   "10th Grade": [
@@ -28,11 +28,11 @@ var project = {
     },
     { 
       "title": "Guessing Game",
-      "description": "Guessing game is essentially a number guessing game ranging from 1-100.",  
+      "description": "Guessing Game is a number guessing game with a range of 1-100.",  
     },
     { 
       "title": "Compliment Generator",
-      "description": "Compliment generator is a compliment generator as the name suggests. It is laced with a dessert theme for extra sweetness.",  
+      "description": "Compliment Generator is a compliment generator as the name suggests. It is laced with a dessert theme for extra sweetness.",  
     },
     { 
       "title": "AP Flashcards",
@@ -40,7 +40,7 @@ var project = {
     },
     { 
       "title": "College Plan",
-      "description": "Collge plan is a website that used bootstrap as the basis of its page layout. It details possible pathways after grade school.",  
+      "description": "Collge Plan is a website that used bootstrap as the basis of its page layout. It details possible pathways after grade school.",  
     },
     { 
       "title": "Movie Lookup",
@@ -56,7 +56,7 @@ var project = {
     },
     { 
       "title": "Weather Wardrobe",
-      "description": "Weather wardrobe introduced a weather API. It searches the database and suggests a wardrobe statement based on pre-defined data.",  
+      "description": "Weather Wardrobe introduced a weather API. It searches the database and suggests a wardrobe statement based on pre-defined data.",  
     },
     { 
       "title": "Cart of the Future",
@@ -114,7 +114,7 @@ var codePen = {
   "9th Grade": [
     { 
       "title": "SVG Key",
-      "link": "XpVOEW?editors=0010",  
+      "link": "XpVOEW",  
       "description": "Svg Key is a codepen made to be a quick reference guide for the svg functions that Ms. Squire shared in freshman year.",  
     },
     { 
@@ -124,7 +124,7 @@ var codePen = {
     },
     { 
       "title": "Flappy Fish",
-      "link": "wJJKLW?editors=1000",  
+      "link": "wJJKLW",  
       "description": "Flappy Fish is a buggy flappy bird game variation. It tests a collision method with relative x and y postitioning.",  
     },
     { 
@@ -134,34 +134,34 @@ var codePen = {
     },
     { 
       "title": "Polygon Assist v.2",
-      "link": "mqdKZx?editors=0010",  
+      "link": "mqdKZx",  
       "description": "Polygon Assist v.2 allows the user to draw shapes by connecting coordinates. The resulting lines will be calculated in the console box.",  
     },
   ],
   "10th Grade": [
     { 
       "title": "Mad Libs",
-      "link": "ZXGwaL?editors=1100",  
+      "link": "ZXGwaL",  
       "description": "Mad Libs take the user's inputs and weaves them into a hilarious narration. This is ideal for all ages.",  
     },
     { 
       "title": "Flash Art",
-      "link": "veWGOy?editors=0110",  
+      "link": "veWGOy",  
       "description": "Flash Art is an animation done mainly with Javascript. It reflects the main villains shown in the first three seasons of CW Flash.",  
     },
     { 
       "title": "Times Table",
-      "link": "EoMrpo?editors=0010",  
+      "link": "EoMrpo",  
       "description": "Times Table is a basic practice for 'for loop' and 'input'. The user may alter the range and factor to create the ideal times table.",  
     },
     { 
       "title": "Movable ViewBox",
-      "link": "mxRBRp?editors=0010",  
+      "link": "mxRBRp",  
       "description": "Movable Viewbox was created when Liam Dimas suspected that the viewBox property can be manipulated with Javascript.",  
     },
     { 
       "title": "Revealing Ring",
-      "link": "PRmboW?editors=0110",  
+      "link": "PRmboW",  
       "description": "Revealing Ring is a codepen that merge the 'clip' property with viewBox manipulation. The result is a revealing ring.",  
     },
   ],

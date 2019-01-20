@@ -113,14 +113,34 @@ var project = {
 var codePen = { 
   "9th Grade": [
     { 
+      "title": "Magikarp Proverb",
+      "link": "RGKPbV",  
+      "description": "Magikarp Proverb is a basic SVG drawing with its own take on a classic proverb.", 
+    },
+    { 
+      "title": "Presidential Platform",
+      "link": "JRmZoz",  
+      "description": "Presidential Platform is a co-op codepen with Joshua Dionisio to fight for class presidency.", 
+    },
+    { 
+      "title": "Pokemon Quiz",
+      "link": "BQJJXy",  
+      "description": "Pokemon Quiz is a crude multiple choice quiz about Pokemon. It was made using radio buttons.", 
+    },
+    { 
       "title": "SVG Key",
       "link": "XpVOEW",  
       "description": "Svg Key is a codepen made to be a quick reference guide for the svg functions that Ms. Squire shared in freshman year.",  
     },
     { 
+      "title": "Quadratic Calculator",
+      "link": "dNrLLL",  
+      "description": "Quadratic Calculator solves simple quadratic questions. It uses input boxes to receive the user's inputs.", 
+    },
+    { 
       "title": "Pineapple Nation",
       "link": "LWPoGW",  
-      "description": "Pineapple Nation is a simple stampinator codepen. This was done by locating the coordinate of the mouse in respect to the canvas.",  
+      "description": "Pineapple Nation is a simple stampinator codepen. This was done by locating the coordinate of the mouse in respect to the canvas.", 
     },
     { 
       "title": "Flappy Fish",

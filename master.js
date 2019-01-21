@@ -291,6 +291,11 @@ var p5Sketch = {
       "link": "gGXrbLwDj",  
       "description": "Solar System is a minimalist, not-to-scale model of the solar system with Pluto included.",  
     },
+    { 
+      "title": "Perlin Tiles",
+      "link": "PiXHgCpqx",  
+      "description": "Perlin Tiles merges perlin noise with 2d array to create a turbulence field. Original idea from Shiffman of the Coding Train.",  
+    },
   ],
   "12th Grade": [
       

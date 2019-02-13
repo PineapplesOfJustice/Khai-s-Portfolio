@@ -301,6 +301,11 @@ var p5Sketch = {
       "link": "C2d2lwkoU",  
       "description": "AP Analysis is an informational website that displays an analytical piece based on a database distributed by the College Board.",  
     },
+    { 
+      "title": "Serene Scenery",
+      "link": "tAcZYr7T1",  
+      "description": "Serene Scenery generates a random landscape based on P5's beginShape function. The craggy terrain appeals to modernists.",  
+    },
   ],
   "12th Grade": [
       

@@ -306,6 +306,16 @@ var p5Sketch = {
       "link": "tAcZYr7T1",  
       "description": "Serene Scenery generates a random landscape based on P5's beginShape function. The craggy terrain appeals to modernists.",  
     },
+    { 
+      "title": "Physics Student",
+      "link": "nCBGXh_0y",  
+      "description": "Physics Student explores the p5.play library and tests its collision features. This is a concept not a game.",  
+    },
+    { 
+      "title": "Tamagotchi Imitation",
+      "link": "aCFYMgxGl",  
+      "description": "Tamagotchi Imitation attempts to recreate the virtual pet game Tamagotchi. It is watered down due to time limitation.",  
+    },
   ],
   "12th Grade": [
       

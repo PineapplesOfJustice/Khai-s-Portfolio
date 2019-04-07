@@ -313,7 +313,7 @@ var p5Sketch = {
     },
     { 
       "title": "Tamagotchi Imitation",
-      "link": "aCFYMgxGl",  
+      "link": "tlglCvCPx",  
       "description": "Tamagotchi Imitation attempts to recreate the virtual pet game Tamagotchi. It is watered down due to time limitation.",  
     },
   ],

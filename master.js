@@ -104,6 +104,14 @@ var project = {
       "title": "Rope Snake",
       "description": "Rope Snake unifies inverse kinematic with snake to create an animal raising game. It is based on the game Insaniquarium by American studio Flying Bear Entertainment.",  
     },
+    { 
+      "title": "Floral Apocalypse (Jam Edition)",
+      "description": "Floral Apocalypse is a collab project with Liam Dimas, Mia Meyers, Alexander Flores, and Juan Castro for the 2019 Rose Valley Game Jam. It is an incomplete work.",  
+    },
+    { 
+      "title": "Ball Deflector",
+      "description": "Ball Deflector re-imagines the anxiety induced by a fierce tennis match, when often, balls are deflected rather than properly stroked. The game is powered with the P5 Play library.",  
+    },
   ],
   "12th Grade": [
       
@@ -349,12 +357,12 @@ function loadProject(level){
       //var placeHolderText2 = 'displayDescription(0, ' + row + ", " + column + ")";  
       //var placeHolderText3 = 'hideDescription(0, ' + row + ", " + column + ")";  
       if(column >= 2){
-        text += '<div class="col-md-3 description" onclick="hideDescription(0, ' + row + ', ' + column + ')" id="ProjectDescription' + row + '_' + column + '"><p>&emsp;' + project[level][0].description +'</p><br><center><a href="https://pineapplesofjustice.github.io/' + project[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "") + '/" target="_blank"><button class="linkButton" id="ProjectLinkButton' + row + '_' + column + '">Open</button></a></center></div>'; 
-        text += '<div class="col-md-3 main" ondblclick=' + placeHolderText1 + ' onclick="displayDescription(0, ' + row + ', ' + column + ')" id="ProjectMain' + row + '_' + column + '"><center><img src="Images/Thumbnail/Project/' + level + "/" + project[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "") + '.PNG" alt="' + project[level][0].title + '" class="thumbnail"/><h2>' + project[level][0].title +'</h2></center></div>'; 
+        text += '<div class="col-md-3 description" onclick="hideDescription(0, ' + row + ', ' + column + ')" id="ProjectDescription' + row + '_' + column + '"><p>&emsp;' + project[level][0].description +'</p><br><center><a href="https://pineapplesofjustice.github.io/' + project[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "").replace(/[(\)]/g, "") + '/" target="_blank"><button class="linkButton" id="ProjectLinkButton' + row + '_' + column + '">Open</button></a></center></div>'; 
+        text += '<div class="col-md-3 main" ondblclick=' + placeHolderText1 + ' onclick="displayDescription(0, ' + row + ', ' + column + ')" id="ProjectMain' + row + '_' + column + '"><center><img src="Images/Thumbnail/Project/' + level + "/" + project[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "").replace(/[(\)]/g, "") + '.PNG" alt="' + project[level][0].title + '" class="thumbnail"/><h2>' + project[level][0].title +'</h2></center></div>'; 
       }  
       else{  
-        text += '<div class="col-md-3 main" ondblclick=' + placeHolderText1 + ' onclick="displayDescription(0, ' + row + ', ' + column + ')" id="ProjectMain' + row + '_' + column + '"><center><img src="Images/Thumbnail/Project/' + level + "/" + project[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "") + '.PNG" alt="' + project[level][0].title + '" class="thumbnail"/><h2>' + project[level][0].title +'</h2></center></div>';  
-        text += '<div class="col-md-3 description" onclick="hideDescription(0, ' + row + ', ' + column + ')" id="ProjectDescription' + row + '_' + column + '"><p>&emsp;' + project[level][0].description +'</p><br><center><a href="https://pineapplesofjustice.github.io/' + project[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "") + '/" target="_blank"><button class="linkButton" id="ProjectLinkButton' + row + '_' + column + '">Open</button></a></center></div>';   
+        text += '<div class="col-md-3 main" ondblclick=' + placeHolderText1 + ' onclick="displayDescription(0, ' + row + ', ' + column + ')" id="ProjectMain' + row + '_' + column + '"><center><img src="Images/Thumbnail/Project/' + level + "/" + project[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "").replace(/[(\)]/g, "") + '.PNG" alt="' + project[level][0].title + '" class="thumbnail"/><h2>' + project[level][0].title +'</h2></center></div>';  
+        text += '<div class="col-md-3 description" onclick="hideDescription(0, ' + row + ', ' + column + ')" id="ProjectDescription' + row + '_' + column + '"><p>&emsp;' + project[level][0].description +'</p><br><center><a href="https://pineapplesofjustice.github.io/' + project[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "").replace(/[(\)]/g, "") + '/" target="_blank"><button class="linkButton" id="ProjectLinkButton' + row + '_' + column + '">Open</button></a></center></div>';   
       }
       column += 1;
       project[level].shift();
@@ -392,10 +400,10 @@ function loadCodePen(level){
       //var placeHolderText3 = 'hideDescription(0, ' + row + ", " + column + ")";  
       if(column >= 2){
         text += '<div class="col-md-3 description" onclick="hideDescription(1, ' + row + ', ' + column + ')" id="CodePenDescription' + row + '_' + column + '"><p>&emsp;' + codePen[level][0].description +'</p><br><center><a href="https://codepen.io/PineappleMaster2002/pen/' + codePen[level][0].link + '" target="_blank"><button class="linkButton" id="CodePenLinkButton' + row + '_' + column + '">Open</button></a></center></div>'; 
-        text += '<div class="col-md-3 main" ondblclick=' + placeHolderText1 + ' onclick="displayDescription(1, ' + row + ', ' + column + ')" id="CodePenMain' + row + '_' + column + '"><center><img src="Images/Thumbnail/CodePen/' + level + "/" + codePen[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "") + '.PNG" alt="' + codePen[level][0].title + '" class="thumbnail"/><h2>' + codePen[level][0].title +'</h2></center></div>';          
+        text += '<div class="col-md-3 main" ondblclick=' + placeHolderText1 + ' onclick="displayDescription(1, ' + row + ', ' + column + ')" id="CodePenMain' + row + '_' + column + '"><center><img src="Images/Thumbnail/CodePen/' + level + "/" + codePen[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "").replace(/[(\)]/g, "") + '.PNG" alt="' + codePen[level][0].title + '" class="thumbnail"/><h2>' + codePen[level][0].title +'</h2></center></div>';          
       }  
       else{  
-        text += '<div class="col-md-3 main" ondblclick=' + placeHolderText1 + ' onclick="displayDescription(1, ' + row + ', ' + column + ')" id="CodePenMain' + row + '_' + column + '"><center><img src="Images/Thumbnail/CodePen/' + level + "/" + codePen[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "") + '.PNG" alt="' + codePen[level][0].title + '" class="thumbnail"/><h2>' + codePen[level][0].title +'</h2></center></div>';  
+        text += '<div class="col-md-3 main" ondblclick=' + placeHolderText1 + ' onclick="displayDescription(1, ' + row + ', ' + column + ')" id="CodePenMain' + row + '_' + column + '"><center><img src="Images/Thumbnail/CodePen/' + level + "/" + codePen[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "").replace(/[(\)]/g, "") + '.PNG" alt="' + codePen[level][0].title + '" class="thumbnail"/><h2>' + codePen[level][0].title +'</h2></center></div>';  
         text += '<div class="col-md-3 description" onclick="hideDescription(1, ' + row + ', ' + column + ')" id="CodePenDescription' + row + '_' + column + '"><p>&emsp;' + codePen[level][0].description +'</p><br><center><a href="https://codepen.io/PineappleMaster2002/pen/' + codePen[level][0].link + '" target="_blank"><button class="linkButton" id="CodePenLinkButton' + row + '_' + column + '">Open</button></a></center></div>';   
       }
       column += 1;
@@ -434,10 +442,10 @@ function loadP5Sketch(level){
       //var placeHolderText3 = 'hideDescription(0, ' + row + ", " + column + ")";  
       if(column >= 2){
         text += '<div class="col-md-3 description" onclick="hideDescription(2, ' + row + ', ' + column + ')" id="P5SketchDescription' + row + '_' + column + '"><p>&emsp;' + p5Sketch[level][0].description +'</p><br><center><a href="https://editor.p5js.org/PineappleMaster/sketches/' + p5Sketch[level][0].link + '" target="_blank"><button class="linkButton" id="P5SketchLinkButton' + row + '_' + column + '">Open</button></a></center></div>'; 
-        text += '<div class="col-md-3 main" ondblclick=' + placeHolderText1 + ' onclick="displayDescription(2, ' + row + ', ' + column + ')" id="P5SketchMain' + row + '_' + column + '"><center><img src="Images/Thumbnail/P5Sketch/' + level + "/" + p5Sketch[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "") + '.PNG" alt="' + p5Sketch[level][0].title + '" class="thumbnail"/><h2>' + p5Sketch[level][0].title +'</h2></center></div>';          
+        text += '<div class="col-md-3 main" ondblclick=' + placeHolderText1 + ' onclick="displayDescription(2, ' + row + ', ' + column + ')" id="P5SketchMain' + row + '_' + column + '"><center><img src="Images/Thumbnail/P5Sketch/' + level + "/" + p5Sketch[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "").replace(/[(\)]/g, "") + '.PNG" alt="' + p5Sketch[level][0].title + '" class="thumbnail"/><h2>' + p5Sketch[level][0].title +'</h2></center></div>';          
       }  
       else{  
-        text += '<div class="col-md-3 main" ondblclick=' + placeHolderText1 + ' onclick="displayDescription(2, ' + row + ', ' + column + ')" id="P5SketchMain' + row + '_' + column + '"><center><img src="Images/Thumbnail/P5Sketch/' + level + "/" + p5Sketch[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "") + '.PNG" alt="' + p5Sketch[level][0].title + '" class="thumbnail"/><h2>' + p5Sketch[level][0].title +'</h2></center></div>';  
+        text += '<div class="col-md-3 main" ondblclick=' + placeHolderText1 + ' onclick="displayDescription(2, ' + row + ', ' + column + ')" id="P5SketchMain' + row + '_' + column + '"><center><img src="Images/Thumbnail/P5Sketch/' + level + "/" + p5Sketch[level][0].title.replace(/\s/g, "-").replace(/'/g, "-").replace(/:/g, "").replace(/[(\)]/g, "") + '.PNG" alt="' + p5Sketch[level][0].title + '" class="thumbnail"/><h2>' + p5Sketch[level][0].title +'</h2></center></div>';  
         text += '<div class="col-md-3 description" onclick="hideDescription(2, ' + row + ', ' + column + ')" id="P5SketchDescription' + row + '_' + column + '"><p>&emsp;' + p5Sketch[level][0].description +'</p><br><center><a href="https://editor.p5js.org/PineappleMaster/sketches/' + p5Sketch[level][0].link + '" target="_blank"><button class="linkButton" id="P5SketchLinkButton' + row + '_' + column + '">Open</button></a></center></div>';   
       }
       column += 1;

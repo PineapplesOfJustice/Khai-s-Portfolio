@@ -1,3 +1,5 @@
+// Note: Image must be in .PNG format.
+
 var project = { 
   "9th Grade": [
     { 

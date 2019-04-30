@@ -111,6 +111,10 @@ var project = {
       "description": "Floral Apocalypse is a collab project with Liam Dimas, Mia Meyers, Alexander Flores, and Juan Castro for the 2019 Rose Valley Game Jam. It is an incomplete work.",  
     },
     { 
+      "title": "Floral Apocalypse (Revised Edition)",
+      "description": "Floral Apocalypse is a collab project with Liam Dimas, Mia Meyers, Alexander Flores, and Juan Castro for the 2019 Rose Valley Game Jam. It is a work in progress.",  
+    },
+    { 
       "title": "Ball Deflector",
       "description": "Ball Deflector re-imagines the anxiety induced by a fierce tennis match, when often, balls are deflected rather than properly stroked. The game is powered with the P5 Play library.",  
     },

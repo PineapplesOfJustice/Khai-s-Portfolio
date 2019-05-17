@@ -118,6 +118,10 @@ var project = {
       "title": "Ball Deflector",
       "description": "Ball Deflector re-imagines the anxiety induced by a fierce tennis match, when often, balls are deflected rather than properly stroked. The game is powered with the P5 Play library.",  
     },
+    { 
+      "title": "Rubber Duck",
+      "description": "Rubber Duck utilizes p5 Play to simulate a physical water environment with buoyancy and water resistance. As a learning tool, sliders are integrated to enable the user the freedom to manipulate the environment.",  
+    },
   ],
   "12th Grade": [
       

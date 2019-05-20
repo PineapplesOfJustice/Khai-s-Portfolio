@@ -120,7 +120,7 @@ var project = {
     },
     { 
       "title": "Rubber Duck",
-      "description": "Rubber Duck utilizes p5 Play to simulate a physical water environment with buoyancy and water resistance. As a learning tool, sliders are integrated to manipulate the environment.",  
+      "description": "Rubber Duck utilizes p5 Play to simulate a virtual environment with buoyancy and water resistance. As a learning tool, sliders are integrated to manipulate it.",  
     },
   ],
   "12th Grade": [

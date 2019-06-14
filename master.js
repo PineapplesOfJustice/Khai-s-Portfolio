@@ -124,7 +124,10 @@ var project = {
     },
   ],
   "12th Grade": [
-      
+    { 
+      "title": "Cavemen' Gazette",
+      "description": "Cavemen' Gazette is an application that searches News API for contemporary news. Pixabay API was also incorporated to replace \"broken\" images.",  
+    },
   ], 
 }
 

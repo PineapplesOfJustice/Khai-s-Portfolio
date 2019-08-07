@@ -129,12 +129,12 @@ var project = {
       "description": "Cavemen' Gazette is an application that searches News API for contemporary news. Pixabay API was also incorporated to replace \"broken\" images.",  
     },
     { 
-      "title": "Caltech Website",
-      "description": "Cavemen' Gazette is an application that searches News API for contemporary news. Pixabay API was also incorporated to replace \"broken\" images.",  
+      "title": "CMEs and the OVRO-LWA",
+      "description": "CMEs and the OVRO-LWA is an introductory website made as a team project with Juan Castro and Joseph DiGiovanni for Caltech's SRC summer internship.",  
     },
     { 
-      "title": "Access Tool",
-      "description": "Cavemen' Gazette is an application that searches News API for contemporary news. Pixabay API was also incorporated to replace \"broken\" images.",  
+      "title": "OVRO-LWA: Data Access",
+      "description": "OVRO-LWA: Data Access is a tool made as a team project with Juan Castro and Joseph DiGiovanni during Caltech's SRC summer internship.",  
     },
   ], 
 }

@@ -53,6 +53,7 @@ p{
   word-wrap: break-word;  
 }
 
+/* Thumbnail Image */
 img{
   user-drag: none; 
   user-select: none;
@@ -98,6 +99,7 @@ div{
   transition: 1.5s linear;
 }
 
+/* Main Containers */
 .main{
   /*background-image:url("Images/Background/White Background.jpg");*/
   cursor: pointer;  
@@ -111,7 +113,6 @@ div{
   padding: 10px;  
   min-height:  150px;  
 }
-
 
 
 /* For Link Button */
@@ -134,8 +135,8 @@ div{
 }
 
 
-
 /* For Carousel */
+
 .carousel-indicators li {
   display: inline-block;
   border: none;
@@ -149,6 +150,7 @@ div{
 }
 
 /* Will be better if sticky property work */
+
 #carouselId{
   background-color: rgba(255, 255, 255, 0.9);
   border: 5px solid black;  
@@ -182,6 +184,7 @@ div{
 
 
 /* For Scroll Button */
+
 #scrollButton{
   color: white;
   font-family: Special Elite;

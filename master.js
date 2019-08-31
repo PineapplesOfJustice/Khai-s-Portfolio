@@ -347,7 +347,16 @@ var p5Sketch = {
     },
   ],
   "12th Grade": [
-      
+    { 
+      "title": "Run Length Encoder: Encoder",
+      "link": "79JBY4OE_",  
+      "description": "Run Length Encoder: Encoder creates &quot;bitmap files&quot; from uploaded images. This is done by analyzing the pixels and translating them.",  
+    },
+    { 
+      "title": "Run Length Encoder: Decoder",
+      "link": "tyOfhKRQY",  
+      "description": "Run Length Encoder: Decoder creates &quot;images&quot; from uploaded &quot;bitmap files&quot;. This is done by analyzing the files and drawing them on a canvas.",  
+    },
   ], 
 }
 

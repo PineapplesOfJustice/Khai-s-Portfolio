@@ -82,10 +82,10 @@ var project = {
       "title": "The Labyrinth",
       "description": "The Labyrinth is a maze game powered by breadth-width and depth-search AI. It was build on an idea by Alexander Flores.",  
     },
-    { 
+    /*{ 
       "title": "Mission: Defense",
       "description": "Mission: Defense is an interactive game made to simulate real projectile motion. Pokemon is a trademark of Nintendo.",  
-    },
+    },*/
     { 
       "title": "Balloon-ful Night",
       "description": "Balloon-ful Night is a soothing animation with balloons and P5.js. These rubber beings can be popped, freezed, or blockaded.",  
@@ -135,6 +135,10 @@ var project = {
     { 
       "title": "OVRO-LWA: Data Access",
       "description": "OVRO-LWA: Data Access is a tool made as a team project with Juan Castro and Joseph DiGiovanni during Caltech's SRC summer internship.",  
+    },
+    { 
+      "title": "Type-o-meter",
+      "description": "Type-o-meter is an application made as a part of the AP Computer Science Principles exam. It measure the user's typing speed.",  
     },
   ], 
 }
